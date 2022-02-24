@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import { user } from './user';
-interface user {
-  username:"string";
-  password:"string"
-  }
+import { CARS } from './cars';
+
+interface Car {
+  username: string;
+  password: string;
+ 
+}
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -11,10 +13,9 @@ interface user {
 })
 
 export class AppComponent {
-  user:any;
   title = 'Log in';
 searchText: any;
-// user : user[] =user;
+cars: Car[] = CARS;
   constructor(){
 
   }

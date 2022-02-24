@@ -1,4 +1,4 @@
-export const user =[
+export const CARS = [
     {
 username:'user1',
 password:'user1',
