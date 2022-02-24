@@ -1,0 +1,22 @@
+.login{
+    color: brown;
+    text-align: center; 
+}
+
+.user{
+text-align:center;
+margin-bottom:5px;
+}
+
+.users{
+    width:100%;
+    text-align:center;
+    margin-bottom:5px;
+}
+
+.logged{
+    /* color:brown; */
+    text-align:center;
+    /* border: 1px dashed ; */
+    /* border-radius:5px ; */
+}
